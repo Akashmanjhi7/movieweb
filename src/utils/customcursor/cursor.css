@@ -1,0 +1,13 @@
+/* CustomCursor.css */
+.custom-cursor {
+    position: fixed;
+    width: 60px; /* Set the width of your custom cursor */
+    height: 60px; /* Set the height of your custom cursor */
+    background-color: #6656cd7c; /* Set the background color or image */
+    border: 2px solid  #6556CD;
+    border-radius: 50%; /* Optional: If you want a circular cursor */
+    pointer-events: none; /* Make sure the cursor doesn't interfere with mouse events */
+    z-index: 9999; /* Set a high z-index to make sure the cursor is always on top */
+    transition: all ease linear 8s;
+  }
+  
